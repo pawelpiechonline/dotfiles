@@ -1,0 +1,56 @@
+{
+  "soft_wrap": "prefer_line",
+  "show_wrap_guides": false,
+  "diff_view_style": "unified",
+  "disable_ai": true,
+  "toolbar": {
+    "breadcrumbs": false
+  },
+  "terminal": {
+    "font_size": 18.0
+  },
+  "git_panel": {
+    "entry_primary_click_action": "file_diff",
+    "group_by": "staging",
+    "tree_view": true,
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "flexible": true,
+    "dock": "right",
+    "threads_sidebar": {
+      "auto_open": false,
+      "position": "right"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "title_bar": {
+    "show_sign_in": false
+  },
+  "rounded_selection": false,
+  "buffer_font_family": "JetBrains Mono NL",
+  "cli_default_open_behavior": "new_window",
+  "vim": {
+    "use_system_clipboard": "on_yank"
+  },
+  "vim_mode": false,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "ui_font_size": 18.0,
+  "buffer_font_size": 18.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark"
+  }
+}

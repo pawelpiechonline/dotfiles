@@ -1,0 +1,13 @@
+{
+  "$schema": "https://pi.dev/schemas/settings.schema.json",
+  "defaultProvider": "openrouter",
+  "defaultModel": "deepseek/deepseek/deepseek-v4.1-flash-1017",
+  "defaultThinkingLevel": "low",
+  "enabledModels": [
+    "openrouter/deepseek/deepseek-v4.1-flash-1017",
+    "openrouter/moonshotai/kimi-k3.1-pro"
+  ],
+  "hideThinkingBlock": true,
+  "fullscreenCopyOnSelect": false,
+  "lastChangelogVersion": "1.4.0"
+}

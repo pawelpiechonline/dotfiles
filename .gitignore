@@ -1,0 +1,16 @@
+# Never commit secrets.
+stow/.ssh/id_*
+stow/.ssh/known_hosts*
+stow/.ssh/authorized_keys
+stow/.pi/agent/auth.json
+stow/.pi/agent/models-store.json
+stow/.pi/agent/trust.json
+stow/.pi/agent/sessions/
+stow/.pi/agent/npm/
+*.pem
+*.key
+.env
+.env.*
+
+# OS junk.
+.DS_Store
