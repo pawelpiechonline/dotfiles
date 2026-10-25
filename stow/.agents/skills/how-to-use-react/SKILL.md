@@ -1,10 +1,10 @@
 ---
-name: how-to-build-react
+name: how-to-use-react
 description: Build and review React components (.tsx, .jsx) in a declarative style. Covers components, props, state, events, effects, and JSX, with reference files for tables, forms, API requests, composition, and context. Use when you write, change, or review React code.
 paths: "**/*.tsx, **/*.jsx"
 ---
 
-Write React that a reader understands on the first pass. Follow the how-to-build-typescript skill for all TypeScript code. This file holds the rules for every React task. Open a reference file when the task matches one, and follow both files.
+Write React that a reader understands on the first pass. Follow the how-to-use-typescript skill for all TypeScript code. This file holds the rules for every React task. Open a reference file when the task matches one, and follow both files.
 
 ## Approach
 
@@ -71,7 +71,7 @@ type RequestState =
 
 ## Write JSX
 
-- Return early for the loading, error, and empty states. Use the same guard clause shape as the how-to-build-typescript skill.
+- Return early for the loading, error, and empty states. Use the same guard clause shape as the how-to-use-typescript skill.
 - Do not use a ternary inside JSX for conditional rendering.
 - Extract each condition into a boolean at the top of the component. Name it with is.
 - Render each branch with its own boolean and &&. Example {isLoggedIn && <Home />} and {isNotLoggedIn && <Login />}. Do not negate a boolean inside the JSX.

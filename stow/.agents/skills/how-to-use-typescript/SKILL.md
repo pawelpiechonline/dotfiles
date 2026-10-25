@@ -1,10 +1,10 @@
 ---
-name: how-to-build-typescript
+name: how-to-use-typescript
 description: Write and review TypeScript files (.ts, .tsx) in a declarative style. Covers data modeling with unions, guard clauses, names, and formatting. Use when you write, change, or review TypeScript code.
 paths: "**/*.ts, **/*.tsx"
 ---
 
-Write TypeScript that a reader understands on the first pass. Aim for clarity, not for the smallest number of lines. This skill is the base for all TypeScript work. The how-to-build-react skill builds on it.
+Write TypeScript that a reader understands on the first pass. Aim for clarity, not for the smallest number of lines. This skill is the base for all TypeScript work. The how-to-use-react skill builds on it.
 
 ## Approach
 
