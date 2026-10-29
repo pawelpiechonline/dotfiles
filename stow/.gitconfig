@@ -1,11 +1,8 @@
 [user]
 	name = Paweł Piech
 	email = 317329313+pawelpiechonline@users.noreply.github.com
-	signingkey = ~/.ssh/id_ed25519.pub
-[gpg]
-	format = ssh
 [commit]
-	gpgsign = true
+	gpgsign = false
 [init]
 	defaultBranch = master
 [core]

@@ -20,7 +20,7 @@
     "terminal.integrated.fontFamily": "JetBrains Mono NL",
     "chat.disableAIFeatures": true,
     "terminal.integrated.fontSize": 14,
-    "editor.fontSize": 14,
+    "editor.fontSize": 15,
     "editor.lineHeight": 1.6,
     "explorer.compactFolders": false,
     "editor.roundedSelection": false,

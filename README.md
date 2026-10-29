@@ -10,11 +10,20 @@ The script picks your OS, installs packages, links dotfiles, makes an SSH key,
 and installs Node.js and Python.
 
 Then log out and log in. Restart the shell. On macOS open Docker Desktop.
-Add the printed SSH key at https://github.com/settings/keys as an auth key and a
-signing key.
+Add the printed SSH key at https://github.com/settings/keys as an auth key.
+
+Commits are not signed. If signing turns up again, run this once to turn it off
+for good:
+
+    git config --global commit.gpgsign false
 
 ## Notes
 
 Files that Stow would overwrite are moved to ~/.dotfiles-backup/<timestamp>.
 Never put private keys or tokens in stow.
+
+Pushes use SSH, so Git asks for the key passphrase unless an agent holds the key.
+Load it once per session with:
+
+    ssh-add ~/.ssh/id_ed25519
 
