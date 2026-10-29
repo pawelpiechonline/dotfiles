@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+SCRIPTS="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 FORMULAE=(
   git
   curl
@@ -50,5 +52,8 @@ brew install "${FORMULAE[@]}"
 
 printf '\n==> Install applications\n'
 brew install --cask "${CASKS[@]}"
+
+printf '\n==> Link VSCodium settings\n'
+"$SCRIPTS/vscodium.sh"
 
 printf '\nOpen Docker Desktop to start the Docker daemon.\n'
