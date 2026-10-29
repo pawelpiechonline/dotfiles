@@ -12,6 +12,8 @@ set mouse=a
 set signcolumn=yes
 set updatetime=300
 
+colorscheme default
+
 if has('clipboard')
   set clipboard=unnamedplus
 endif
