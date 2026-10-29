@@ -9,8 +9,8 @@ Build static pages that look designed by a person. Keep one brand system across 
 ## Start with BRANDING.md
 
 - Read BRANDING.md at the project root before you change a page.
-- If the file does not exist, create it from BRANDING.template.md. Fill its fields from the project files.
-- Ask the user only for values that the project files cannot supply.
+- If the file does not exist, create it from BRANDING.template.md. Fill the needed fields from the project files.
+- Ask the user only for needed values that the project files cannot supply.
 - Use BRANDING.md as the only source for color, type, space, radius, shadow, tone, and images.
 - Add missing values before use. Do not make values for one page.
 - Keep the component set small. Use one button style, one card style, and one section rhythm.

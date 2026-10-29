@@ -1,119 +1,49 @@
 # Branding
 
-Use this file for the appearance and voice of all pages. Add values before use. Follow the skill references for implementation rules.
+Keep shared brand decisions here. Use the skill references for implementation rules. Add other values only when a page needs them.
 
-## Brand
+## Brand and voice
 
 - Name:
-- Description in one sentence:
 - Product or offer:
-- Main website:
 - Primary audience:
-
-## Personality
-
-- Three words for the brand:
-- One word that does not describe the brand:
-- Reference sites or products:
-- Visitor feeling in the first five seconds:
-
-## Voice and copy
-
-- Tone:
-- Language:
-- Reading level:
-- Sentence length:
-- Product name spelling:
-- Heading capitalization:
-- Preferred words and phrases:
-- Prohibited words and phrases:
-- Headline pattern:
-- Subheadline pattern:
-- Action labels:
-- Proof rule:
+- Brand style:
+- Tone and language:
+- Preferred and prohibited terms:
+- Primary action label:
 
 ## Type
 
 - Heading font and source:
 - Body font and source:
-- Type scale in pixels:
-- Heading weight and line height:
-- Body weight and line height:
-- Large heading letter spacing:
-- Maximum line length in characters:
+- Type scale:
+- Font weights:
+- Line heights:
+- Maximum text line length:
 
-## Color
+## Colors
 
-- Primary color:
-- Primary hover color:
-- Primary active color:
-- Accent color:
-- Background color:
-- Surface color:
+- Primary and accent colors:
+- Background and surface colors:
+- Text and muted text colors:
 - Border color:
-- Text color:
-- Muted text color:
 - Grey scale:
-- Success color:
-- Warning color:
-- Error color:
 
-## Space and layout
+Add colors for hover, active, success, warning, and error states when needed.
 
-- Base space unit:
+## Layout
+
+- Container width:
 - Space scale:
-- Page container width:
-- Section vertical padding:
-- Grid gap:
-- Small, medium, and large radius:
+- Section padding:
 - Breakpoints:
-- Permitted sticky elements:
-
-## Depth
-
+- Radius scale:
 - Shadow style:
-- Border style:
-- Permitted shadow location:
-- Permitted gradient location:
 
-## Images
+## Images and icons
 
 - Assets directory:
-- File name rule:
-- Format rule:
-- Image style:
-- Permitted subjects:
-- Prohibited subjects:
-- Alt text rule:
+- Image style and subjects:
+- Icon sizes and stroke width:
 
-## Icons
-
-- Icon set: Lucide
-- Sizes by role:
-- Stroke width:
-- Color rule:
-
-## Motion
-
-- Animation library: Motion
-- Hover duration:
-- Entrance duration:
-- Easing:
-- Elements with motion:
-- Elements without motion:
-- Reduced motion rule:
-
-## Page sections
-
-- Home:
-- Landing:
-- Pricing:
-- About:
-- Blog post:
-
-## Image sources
-
-Record each downloaded photo.
-
-| File | Source URL | Author | License |
-| --- | --- | --- | --- |
+Use Unsplash photos and Lucide icons. Follow the asset rules for file names, formats, and alt text.

@@ -15,7 +15,6 @@ Keep image files in the project. Use the paths and styles from BRANDING.md. Foll
 - Lazy-load images below the fold. Load the hero image early.
 - Use the same light, crop, and finish across the project.
 - Show the product, place, or person in context. Do not use fake laptop screens, handshakes, or charts.
-- Record each photo source URL and author in BRANDING.md.
 
 ## Lucide icons
 
