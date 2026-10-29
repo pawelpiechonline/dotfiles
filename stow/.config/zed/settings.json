@@ -48,7 +48,7 @@
     "anthropic_retention": false
   },
   "ui_font_size": 18.0,
-  "buffer_font_size": 18.0,
+  "buffer_font_size": 20.0,
   "theme": {
     "mode": "system",
     "light": "One Light",
