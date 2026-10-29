@@ -25,5 +25,6 @@
     "explorer.compactFolders": false,
     "editor.roundedSelection": false,
     "window.zoomPerWindow": false,
-    "window.zoomLevel": 3
+    "window.zoomLevel": 2,
+    "workbench.experimental.modernUI": true
 }
