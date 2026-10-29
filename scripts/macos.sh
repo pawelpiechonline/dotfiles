@@ -30,6 +30,8 @@ CASKS=(
   bitwarden
   docker-desktop
   font-jetbrains-mono
+  vscodium
+  zed
 )
 
 if [ "$(id -u)" -eq 0 ]; then

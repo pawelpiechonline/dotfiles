@@ -16,6 +16,7 @@ PACMAN_PACKAGES=(
   neovim
   firefox
   bitwarden
+  zed
   ttf-jetbrains-mono
   uv
   nvm
@@ -24,6 +25,7 @@ PACMAN_PACKAGES=(
 )
 AUR_PACKAGES=(
   pi
+  vscodium-bin
 )
 
 if [ "$(id -u)" -eq 0 ]; then
