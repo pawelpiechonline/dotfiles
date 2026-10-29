@@ -17,3 +17,4 @@ signing key.
 
 Files that Stow would overwrite are moved to ~/.dotfiles-backup/<timestamp>.
 Never put private keys or tokens in stow.
+
