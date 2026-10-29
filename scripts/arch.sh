@@ -12,6 +12,7 @@ PACMAN_PACKAGES=(
   ripgrep
   kitty
   xdg-terminal-exec
+  wl-clipboard
   vim
   neovim
   firefox
