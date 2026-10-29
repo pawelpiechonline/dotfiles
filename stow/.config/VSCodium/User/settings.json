@@ -1,7 +1,7 @@
 {
     "telemetry.telemetryLevel": "off",
     "breadcrumbs.enabled": false,
-    "workbench.colorTheme": "Light+",
+    "workbench.colorTheme": "Dark Modern",
     "editor.bracketPairColorization.enabled": false,
     "editor.minimap.enabled": false,
     "editor.stickyScroll.enabled": false,
@@ -25,6 +25,6 @@
     "explorer.compactFolders": false,
     "editor.roundedSelection": false,
     "window.zoomPerWindow": false,
-    "window.zoomLevel": 2,
-    "workbench.experimental.modernUI": true
+    "workbench.experimental.modernUI": true,
+    "window.zoomLevel": 1
 }
