@@ -12,6 +12,8 @@
     "workbench.tree.indent": 12,
     "workbench.layoutControl.enabled": false,
     "window.commandCenter": false,
+    "window.titleBarStyle": "custom",
+    "window.dialogStyle": "custom",
     "workbench.browser.showInTitleBar": false,
     "workbench.editor.useModal": "some",
     "editor.fontFamily": "JetBrains Mono NL",
