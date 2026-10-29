@@ -19,6 +19,7 @@
     "button": false
   },
   "project_panel": {
+    "sticky_scroll": false,
     "dock": "left"
   },
   "agent": {
