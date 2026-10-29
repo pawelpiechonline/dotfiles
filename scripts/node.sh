@@ -3,11 +3,8 @@ set -euo pipefail
 
 if [ -s /usr/share/nvm/init-nvm.sh ]; then
   NVM_INIT=/usr/share/nvm/init-nvm.sh
-elif command -v brew >/dev/null && [ -s "$(brew --prefix nvm)/nvm.sh" ]; then
-  NVM_INIT="$(brew --prefix nvm)/nvm.sh"
 else
-  printf 'nvm is missing. Run scripts/bootstrap.sh first.\n' >&2
-  exit 1
+  NVM_INIT="$(brew --prefix nvm)/nvm.sh"
 fi
 
 # nvm does not support set -u.

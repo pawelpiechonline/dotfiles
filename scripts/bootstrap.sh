@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
+# Entry point for the whole setup. Run this script, not the scripts it calls.
 set -euo pipefail
 
-SCRIPTS="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# Resolve this directory so bootstrap works from any working directory.
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 case "$(uname -s)" in
   Linux)
@@ -9,19 +11,20 @@ case "$(uname -s)" in
       printf 'Only Arch Linux and macOS are supported.\n' >&2
       exit 1
     fi
-    "$SCRIPTS/arch.sh"
+    "$SCRIPT_DIR/arch.sh"
     ;;
   Darwin)
-    "$SCRIPTS/macos.sh"
+    "$SCRIPT_DIR/macos.sh"
     ;;
   *)
     printf 'Only Arch Linux and macOS are supported.\n' >&2
     exit 1
     ;;
 esac
-"$SCRIPTS/stow.sh"
-"$SCRIPTS/ssh.sh"
-"$SCRIPTS/node.sh"
-"$SCRIPTS/python.sh"
+
+"$SCRIPT_DIR/stow.sh"
+"$SCRIPT_DIR/ssh.sh"
+"$SCRIPT_DIR/node.sh"
+"$SCRIPT_DIR/python.sh"
 
 printf '\nBootstrap complete. Restart your shell before using Node.js.\n'

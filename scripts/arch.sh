@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PACKAGES=(
+PACMAN_PACKAGES=(
   base-devel
   git
   curl
@@ -32,9 +32,9 @@ if [ "$(id -u)" -eq 0 ]; then
 fi
 
 printf '\n==> Update Arch and install repository packages\n'
-sudo pacman -Syu --needed "${PACKAGES[@]}"
+sudo pacman -Syu --needed "${PACMAN_PACKAGES[@]}"
 
-if ! command -v paru >/dev/null; then
+if ! command -v paru >/dev/null 2>&1; then
   printf '\n==> Build paru from the AUR\n'
   BUILD_DIR="$(mktemp -d)"
   trap 'rm -rf "$BUILD_DIR"' EXIT
@@ -48,8 +48,9 @@ paru -S --needed "${AUR_PACKAGES[@]}"
 printf '\n==> Enable Docker\n'
 sudo systemctl enable --now docker.service
 
-if ! id -nG "$USER" | grep -qw docker; then
-  sudo usermod -aG docker "$USER"
+USER_NAME="$(id -un)"
+if ! id -nG "$USER_NAME" | grep -qw docker; then
+  sudo usermod -aG docker "$USER_NAME"
   printf 'Log out and back in to use Docker without sudo.\n'
 fi
 
