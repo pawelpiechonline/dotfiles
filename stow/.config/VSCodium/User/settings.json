@@ -24,4 +24,6 @@
     "editor.lineHeight": 1.6,
     "explorer.compactFolders": false,
     "editor.roundedSelection": false,
+    "window.zoomPerWindow": false,
+    "window.zoomLevel": 3
 }
