@@ -5,9 +5,12 @@
   "defaultThinkingLevel": "low",
   "enabledModels": [
     "openrouter/deepseek/deepseek-v4.1-flash-1017",
-    "openrouter/moonshotai/kimi-k3.1-pro"
+    "openrouter/moonshotai/kimi-k3.1-pro",
+    "openai/gpt-6.1-terra",
+    "openai/gpt-6-luna",
+    "openai/gpt-6-astra"
   ],
-  "hideThinkingBlock": true,
+  "hideThinkingBlock": false,
   "fullscreenCopyOnSelect": false,
   "lastChangelogVersion": "1.4.0",
   "packages": []
