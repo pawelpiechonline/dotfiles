@@ -1,13 +1,17 @@
 {
+  "buffer_line_height": {
+    "custom": 1.5
+  },
   "soft_wrap": "prefer_line",
   "show_wrap_guides": false,
-  "diff_view_style": "unified",
+  "diff_view_style": "split",
   "disable_ai": true,
   "toolbar": {
     "breadcrumbs": false
   },
   "terminal": {
-    "font_size": 18.0
+    "font_weight": 450.0,
+    "font_size": 19.0
   },
   "git_panel": {
     "entry_primary_click_action": "file_diff",
@@ -47,10 +51,10 @@
     "metrics": false,
     "anthropic_retention": false
   },
-  "ui_font_size": 18.0,
+  "ui_font_size": 24.0,
   "buffer_font_size": 20.0,
   "theme": {
-    "mode": "system",
+    "mode": "light",
     "light": "One Light",
     "dark": "One Dark"
   }
