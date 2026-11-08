@@ -1,7 +1,7 @@
 {
     "telemetry.telemetryLevel": "off",
     "breadcrumbs.enabled": false,
-    "workbench.colorTheme": "Dark Modern",
+    "workbench.colorTheme": "Light Modern",
     "editor.bracketPairColorization.enabled": false,
     "editor.minimap.enabled": false,
     "editor.stickyScroll.enabled": false,
@@ -20,11 +20,12 @@
     "terminal.integrated.fontFamily": "JetBrains Mono NL",
     "chat.disableAIFeatures": true,
     "terminal.integrated.fontSize": 14,
-    "editor.fontSize": 16,
     "editor.lineHeight": 1.6,
     "explorer.compactFolders": false,
     "editor.roundedSelection": false,
     "window.zoomPerWindow": false,
     "workbench.experimental.modernUI": true,
-    "window.zoomLevel": 1
+    "window.zoomLevel": 2,
+    "workbench.startupEditor": "none",
+    "editor.mouseWheelScrollSensitivity": 2
 }
