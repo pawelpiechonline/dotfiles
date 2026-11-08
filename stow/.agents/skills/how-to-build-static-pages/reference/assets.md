@@ -1,13 +1,16 @@
 # Image and icon rules
 
-Keep image files in the project. Use the paths and styles from BRANDING.md. Follow reference/accessibility.md for image and icon labels.
+Keep image files in the project. Use the paths and styles from BRANDING.md.
+Follow reference/accessibility.md for image and icon labels.
 
 ## Images
 
 - Use real photos from Unsplash. Download them into the project assets directory. Do not hotlink them.
 - Name files page_section_description.webp or page_section_description.png.
 - Use lowercase letters and underscores between parts. Use hyphens inside a part.
-- Use the route for page, the block for section, and the content for description. Example: home_hero_dashboard.webp.
+- Use the route for page in the file name.
+- Use the block for section in the file name.
+- Use the content for description in the file name. Example: home_hero_dashboard.webp.
 - Use webp for photos. Use png for graphics that need transparency. Use svg only for sharp logos or illustrations.
 - Resize each image for its page size. Do not use a 4000 pixel image in a 600 pixel block.
 - Compress images. Aim for less than 200 KB per photo in a content block.
@@ -18,8 +21,10 @@ Keep image files in the project. Use the paths and styles from BRANDING.md. Foll
 
 ## Lucide icons
 
-- Use Lucide as the only icon set. Select icons at https://lucide.dev/icons/.
-- Follow the guide for the project framework. For Astro, use https://lucide.dev/guide/astro/.
+- Use Lucide as the only icon set.
+- Select icons from the [Lucide catalog](https://lucide.dev/icons/).
+- Follow the guide for the project framework.
+- For Astro, follow the [Lucide Astro guide](https://lucide.dev/guide/astro/).
 - For Astro, run npm install @lucide/astro. Import icons from @lucide/astro.
 - For React, run npm install lucide-react. Import icons from lucide-react.
 - Import only the icons you use.

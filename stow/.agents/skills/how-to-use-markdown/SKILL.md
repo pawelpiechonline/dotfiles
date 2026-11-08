@@ -1,22 +1,30 @@
 ---
 name: how-to-use-markdown
-description: Write and review Markdown in a near-plain-text style. Use when you create, change, or review a Markdown file.
+description: >-
+  Write and review Markdown in a near-plain-text style. Covers line width,
+  lists, code blocks, tables, links, and frontmatter formatting. Use when you
+  create, change, or review a Markdown file.
 paths: "**/*.md"
 ---
 
-Write Markdown that is easy to read as plain text. Match the style of the existing file.
+Write Markdown that is easy to read as plain text. Follow the existing style
+where it agrees with these rules.
 
-- Add a header only when it helps the reader.
-- Do not use bold or italics.
-- Do not use backticks for a path, a command, a name, or another word.
-- Use a fenced code block only for code.
-- Add a language identifier to each code fence.
-- Use a hyphen for a bullet list.
-- Use a numbered list only for actions in an order.
-- Keep list punctuation consistent.
-- Do not use an em dash. Use a hyphen instead.
-- Use a table only when it makes data easier to read.
+- Do not use bold, italics, or inline backticks.
+- Write paths, commands, and names as plain text.
+- Use hyphens instead of em dashes.
 - Write link text that describes the destination.
-- Do not use a raw URL unless the address must stay visible.
-- Remove trailing spaces.
-- End the file with a newline.
+- Do not use raw URLs unless the address must stay visible.
+- Read each required reference before you apply its rules.
+- Follow reference/formatting.md for every Markdown task.
+- Follow reference/tables.md when you add or change tables.
+- Follow reference/frontmatter.md when the file has YAML frontmatter.
+- Check completed files against these rules and the applicable references.
+- Check that local file references exist.
+- Check that symlinks resolve.
+
+| File                     | Task                    | Description                     |
+| ------------------------ | ----------------------- | ------------------------------- |
+| reference/formatting.md  | Format Markdown text    | Line width, lists, and code     |
+| reference/tables.md      | Add or change tables    | Cell width and column alignment |
+| reference/frontmatter.md | Format YAML frontmatter | Missing file; rules unavailable |

@@ -1,0 +1,30 @@
+Give each skill one clear purpose. State when to use the skill.
+
+- Ask for a new skill's name, task, and usage conditions only when missing.
+- Use a lowercase name with hyphens.
+- Create a directory that matches the skill name.
+- Create SKILL.md with YAML frontmatter in that directory.
+- State the skill's purpose and usage conditions in description.
+- Include concrete tasks, file types, or user requests that identify its scope.
+- Keep description specific enough to distinguish related skills.
+- Preserve frontmatter fields and values unless the user requests changes.
+- Improve description on rewrites without changing its purpose or style.
+- Start the body of SKILL.md with a short introduction followed by rules.
+- Keep core rules in SKILL.md and task-specific details in references.
+- Add files only when they make a distinct task easier to follow.
+- Keep one topic in each reference.
+- Keep each rule in one authoritative location.
+- State when to read each reference.
+- State that the reference rules apply.
+- Link references directly from SKILL.md instead of creating long link chains.
+- Use paths relative to the skill directory.
+- Use reference/tables.md for the final table of supporting files.
+- State required inputs, prerequisites, and outputs when the task needs them.
+- Define actions and completion conditions that a reader can check.
+- State what to do when required input is missing or a check fails.
+- Ask for clarification when choices change scope, behavior, or safety.
+- Do not invent requirements, tool options, or project conventions.
+- Use examples that match the target language and library versions.
+- State when a pattern does not apply if misuse is likely.
+- Require confirmation for destructive actions outside the user's request.
+- Do not put secrets in examples, commands, or diagnostic output.

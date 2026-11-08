@@ -1,6 +1,7 @@
 # Copy rules
 
-Write new copy for landing, home, and product pages. Use the tone and terms from BRANDING.md. Do not copy the sample article.
+Write new copy for landing, home, and product pages. Use the tone and terms from BRANDING.md.
+Do not copy the sample article.
 
 ## Set the message
 
@@ -8,14 +9,17 @@ Write new copy for landing, home, and product pages. Use the tone and terms from
 - Write for one reader with one problem. Give one unique value. Use separate pages for separate audiences.
 - Read reviews, support tickets, and community posts. Use the reader's words for the problem.
 - Select the reader's awareness stage: unaware, problem aware, solution aware, product aware, or most aware.
-- Match the headline and proof to that stage. A most-aware reader needs the price and offer. A problem-aware reader needs the problem.
+- Match the headline and proof to that stage.
+- A most-aware reader needs the price and offer.
+- A problem-aware reader needs the problem.
 - Match the promise in the ad, email, or link that leads to the page.
 - Remove actions that compete with the primary action.
 - Add a weaker secondary action only for readers who are less ready to act.
 
 ## Build the content
 
-- Use this order: headline, subheadline, main proof, benefits, product steps, testimonial, answers to concerns, and final action.
+- Use this order: headline, subheadline, main proof, benefits, product steps, testimonial,
+  answers to concerns, and final action.
 - Answer concerns about price, time, privacy, and cancellation.
 - Give each section one job. Remove repeated points.
 

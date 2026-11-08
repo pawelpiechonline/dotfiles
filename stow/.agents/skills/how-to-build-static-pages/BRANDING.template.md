@@ -1,6 +1,7 @@
 # Branding
 
-Keep shared brand decisions here. Use the skill references for implementation rules. Add other values only when a page needs them.
+Keep shared brand decisions here. Use the skill references for implementation rules.
+Add other values only when a page needs them.
 
 ## Brand and voice
 

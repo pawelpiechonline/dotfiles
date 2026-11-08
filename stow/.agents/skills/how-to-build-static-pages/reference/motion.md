@@ -7,7 +7,8 @@ Use motion to show a state or a link. Do not use motion as decoration.
 - Run npm install motion in the project.
 - Run npx motion-ai for the current agent skill and setup.
 - Import from motion for HTML or Astro. Import from motion/react for React.
-- Read https://motion.dev/ before you write a new pattern. Do not use an old pattern from memory.
+- Read the [Motion documentation](https://motion.dev/) before you write a new pattern.
+- Do not use an old pattern from memory.
 - Use CSS transitions for simple hover or focus states.
 - Use Motion for springs, staggered animation, or values that change with time.
 
@@ -16,7 +17,7 @@ Use motion to show a state or a link. Do not use motion as decoration.
 - Animate only clickable elements on hover or press: buttons, links, nav items, and cards that open.
 - Do not animate static headings, text, images, badges, logos, statistics, or cards on hover.
 - Scale an image on hover only inside a link that opens the full card.
-- Do not change the cursor on an element that does not click.
+- Do not change the cursor on an element that users cannot click.
 - Use 150 to 250 milliseconds for hover.
 - Use a lift of 1 to 2 pixels, a scale from 1 to 1.02, or a small opacity change.
 - Do not use a spring with a visible bounce. Use a short spring or a tween.
@@ -37,7 +38,8 @@ Use motion to show a state or a link. Do not use motion as decoration.
 - Do not animate an element that also moves the layout.
 - Do not block clicks during animation. Keep the focus ring visible.
 - Follow prefers-reduced-motion. Remove movement, scale, and entrance animation when the user requests less motion.
-- Keep opacity changes small or remove them under prefers-reduced-motion.
+- Keep opacity changes small under prefers-reduced-motion.
+- You can remove these opacity changes instead.
 
 ## Check motion
 

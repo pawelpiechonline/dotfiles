@@ -41,10 +41,13 @@ Use these Refactoring UI rules. Take all values from BRANDING.md. Do not make va
 
 ## Color and depth
 
-- Define shades in BRANDING.md before use. Use the primary color for the main action and small accents, not large areas.
+- Define shades in BRANDING.md before use.
+- Use the primary color for the main action and small accents, not large areas.
 - Control saturation. Prefer a dark primary shade when a bright shade is too strong.
 - Use grey with the brand hue. Do not use pure grey or cold grey with a warm brand.
-- Do not use pure black. Do not use grey text on colored backgrounds. Use a darker shade of the background hue.
+- Do not use pure black.
+- Do not use grey text on colored backgrounds.
+- Use a darker shade of the background hue for this text.
 - Use color with a label, icon, or weight change to show a state.
 - Follow reference/accessibility.md for contrast and text on photos.
 - Use gradients only on charts or photo overlays. Do not use decorative gradients.
